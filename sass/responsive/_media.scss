@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+  header {
+    background-image: none;
+
+    h1 {
+      padding-bottom: 17.5vh;
+      font-weight: 900;
+      color: rgb(24, 120, 189);
+    }
+    #heading {
+      background-color: none;
+      opacity: 1;
+      position: relative;
+      top: 17vh;
+      font-weight: 900;
+      width: 80%;
+      h3 {
+        padding-bottom: 20px;
+      }
+    }
+  }
+  nav {
+    img:first-child {
+      display: none;
+    }
+    div {
+      width: 100%;
+      float: none;
+      height: 900px;
+    }
+    a:first-child {
+      margin: 0;
+    }
+  }
+  div.aside {
+    //width: 100%;
+    //float: none;
+    position: relative;
+    img {
+      min-width: 300px;
+      max-width: 340px;
+      width: 60%;
+      position: absolute;
+      left: 20%;
+      bottom: 1px;
+      height: 400px;
+      opacity: 0.8;
+      //margin: 20px 0;
+      //z-index: 10;
+    }
+  }
+  .right {
+    margin: 10%;
+    h2 {
+      text-align: center;
+    }
+  }
+  #AboutMe {
+    div {
+      width: 100%;
+      display: block;
+    }
+    button {
+      margin: 0 auto;
+    }
+  }
+  #MyProject {
+    margin: 10%;
+    width: 80%;
+    #quiz-modal {
+      width: inherit;
+    }
+  }
+  #Contact {
+    input,
+    textarea {
+      width: 90%;
+    }
+  }
+  footer {
+    #button-footer {
+      display: none;
+    }
+    #arrow {
+      display: block;
+      float: right;
+      margin: 30px 60px;
+    }
+    #bottom-immage {
+      padding: 30px;
+      margin-left: 180px;
+    }
+  }
+}
+@media screen and (max-width: 999px) {
+  nav {
+    img:first-child {
+      display: none;
+    }
+    div {
+      width: 100%;
+      float: none;
+      height: 900px;
+    }
+    a:first-child {
+      margin: 0;
+    }
+  }
+}
+@media screen and (min-width: 999px) {
+  .aside {
+    img {
+      width: 40%;
+    }
+  }
+  #x1 {
+    top: 20px;
+    right: 20px;
+  }
+  .right {
+    h2 {
+      margin-left: 5%;
+    }
+    #AboutMe {
+      button {
+        margin-left: 0 auto;
+      }
+    }
+    #MyProject {
+      .card {
+        width: 35%;
+        float: left;
+        margin: 5%;
+      }
+    }
+    #Contact {
+      clear: both;
+      input {
+        width: 80%;
+      }
+      textarea {
+        width: 80%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 24px;
+  }
+  #button-footer {
+    display: block;
+  }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/site.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav style="display: none">
+      <!--Navigation-->
+      <img src="/images/forest.jpg" alt="forest" />
+      <div id="click">
+        <a href="#AboutMe"> About me </a>
+        <a href="#MyProject"> My project </a>
+        <a href="#Contact"> Contact </a>
+        <!-- close button-->
+        <img src="/images/x.png" alt="x" id="x" />
+      </div>
+    </nav>
+
+    <div id="hide">
+      <header id="top">
+        <!--Sandwich meni-->
+        <div id="x1">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <!--Header content-->
+        <h1>Renata Tukic</h1>
+        <div id="heading">
+          <h2>Front-end Web Developer</h2>
+          <h3>Portfolio</h3>
+        </div>
+      </header>
+      <!-- my photo-->
+      <div class="aside">
+        <img src="images/slika.png" alt="slika" class="rounded" />
+      </div>
+      <!--right-->
+      <div class="right">
+        <article id="AboutMe">
+          <h2>About me</h2>
+          <!--About me text-->
+
+          <div class="border rounded">
+            <p>
+              I've been learning JavaScript for a while now. I like to explore,
+              think about a problem, and find creative solutions for website
+              design and functionality.
+            </p>
+            <p>
+              I am finished an intensive IT Bootcamp Web development course. I
+              gained basic knowledge of HTML, CSS, JavaScript, and ReactJS
+              through interactive lectures, homework, and independent projects.
+              I am also familiar with Sass, Bootstrap, firebase, jQuery, and
+              git.
+            </p>
+            <p>
+              I attend courses at Campster, Tailor's school, Udemy, Coursera,
+              also use W3Schols and YouTube channels for learning and improving
+              my knowledge.
+            </p>
+            <p>
+              I am looking for my first professional experience, internship, or
+              junior position as a front-end developer.
+            </p>
+          </div>
+          <!--cv download-->
+          <button class="mt-5 mb-5 btn btn-secondary text-capitalize">
+            <a
+              href="pdf/Portfolio cv resume.pdf"
+              style="display: block"
+              download
+            >
+              download CV<img src="/images/down.png" alt="download" class=""
+            /></a>
+          </button>
+        </article>
+        <!--Projects-->
+        <article id="MyProject">
+          <h2>My Project</h2>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                data-language="HTML"
+                >HTML</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-language="CSS">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-language="SASS">SASS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-language="Bootstrap">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-language="JS">JS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-language="jQuery">jQuery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-language="ReactJS">ReactJS</a>
+            </li>
+          </ul>
+          <div id="jsonn">
+            <script id="template" type="template">
+              <div class="card">
+                <h3 class="card-header">{{name}}</h3>
+
+                <img
+                  id="{{id}}"
+                  src="images/{{imagesrc}}"
+                  alt="{{title}}"
+                  class="rounded card-body"
+                />
+                <div class="{{class}}" style="display:none;" >
+                  <div id="quiz-modal">
+                    <!--links to my project-->
+                    <div>
+                      <a
+                        href="{{url}}"
+                        target="_blank"
+                        class="try"
+                        >Try it </a
+                      >
+                      <img src="/images/x.png" alt="x" class="close {{close}}" />
+                    </div>
+                    <div>
+                      <h3 class="">{{name}}</h3>
+                      <p>
+                       {{par}}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </script>
+          </div>
+        </article>
+        <!--Contact-->
+        <section id="Contact">
+          <h2>Contact</h2>
+          <div class="border rounded">
+            <p>
+              <a href="https://goo.gl/maps/g1khzvmVnAeXjU2TA" target="_blank"
+                ><img src="images/map.png" alt="pin" /> Nis, Serbia</a
+              >
+            </p>
+
+            <a href="mailto:renata.tukic@gmail.com"
+              ><img src="images/mail.webp" alt="mail" />
+              renata.tukic@gmail.com</a
+            >
+          </div>
+
+          <form method="post" action="send.php" class="border rounded d-none">
+            <input type="text" placeholder="Name" name="name" required />
+            <input type="email" placeholder="Email" name="email" required />
+            <input
+              id="subject"
+              type="text"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+
+            <button type="submit" name="subBtn">Send message</button>
+          </form>
+        </section>
+      </div>
+
+      <!--Footer-->
+      <footer>
+        <!--Back to top button-->
+        <button id="button-footer" class="btn btn-info">
+          <a href="#top" style="display: block">
+            back to top<img src="/images/arrow.png" alt=<"arrow" style="width:
+            30px; height: 20px; padding-left: 10px;" /></a
+          >
+        </button>
+        <button class="btn btn-info" id="arrow">
+          <a href="#top" style="display: block">
+            <img
+              src="/images/arrow.png"
+              alt="arrow"
+              style="width: 20px; height: 20px"
+          /></a>
+        </button>
+        <div id="bottom-immage">
+          <!--Social media-->
+          <a href="https://www.linkedin.com/in/renata-tukic/" target="_blank"
+            ><img src="/images/linked-in.png" alt="linked-in"
+          /></a>
+          <a href="https://github.com/renkodiranje" target="_blank"
+            ><img src="/images/github.png" alt="gitHub"
+          /></a>
+        </div>
+      </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

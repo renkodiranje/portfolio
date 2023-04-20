@@ -1,0 +1,47 @@
+nav {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  img {
+    float: left;
+    height: 950px;
+    width: 50%;
+  }
+  div {
+    background-image: linear-gradient(
+      45deg,
+      rgb(118, 167, 205),
+      rgb(37, 77, 112)
+    );
+    float: left;
+    height: 950px;
+    width: 50%;
+    img {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: black;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      &:hover {
+        background-color: white;
+        cursor: pointer;
+      }
+    }
+    a {
+      display: block;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      margin: 200px 0;
+      font-size: 40px;
+      font-weight: 900;
+      color: rgb(180, 177, 177);
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

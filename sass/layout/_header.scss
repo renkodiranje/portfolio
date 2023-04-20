@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  background-image: url("/images/trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  div {
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    opacity: 0.5;
+  }
+  #x1 {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(201, 195, 195);
+    width: 35px;
+    height: 35px;
+    &:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+    div {
+      opacity: 1;
+      width: 26px;
+      height: 6px;
+      background-color: rgb(24, 120, 189);
+      margin: 4px 4px;
+    }
+  }
+}

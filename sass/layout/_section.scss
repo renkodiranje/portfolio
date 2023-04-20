@@ -1,0 +1,32 @@
+section {
+  div {
+    p {
+      padding: 0;
+    }
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(249, 246, 246);
+    img:nth-child(2) {
+      width: 30px;
+      height: auto;
+    }
+    img:nth-child(1) {
+      width: 50px;
+      height: auto;
+    }
+    a {
+      font-size: medium;
+      color: black;
+      display: block;
+      text-decoration: none;
+      padding: 12px 22px;
+      &:hover {
+        color: rgb(26, 144, 176);
+      }
+      &:nth-child(1) {
+        display: inline;
+        padding: 0;
+      }
+    }
+  }
+}

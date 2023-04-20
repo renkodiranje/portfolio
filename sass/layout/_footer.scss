@@ -1,0 +1,39 @@
+footer {
+  position: relative;
+  margin-top: 20px;
+  background-color: $footer-background;
+  display: block;
+  #arrow {
+    display: none;
+  }
+  #button-footer {
+    border: 1px solid rgb(78, 76, 76);
+    position: relative;
+    left: 80%;
+    top: 30px;
+    &:hover {
+      background-color: rgb(71, 69, 69);
+    }
+    a {
+      display: block;
+      width: 160px;
+      height: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $footer-background;
+      line-height: 40px;
+    }
+  }
+  #bottom-immage {
+    margin: 0px 50%;
+    width: 200px;
+    padding-bottom: 30px;
+    img {
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
