@@ -16,6 +16,22 @@
     "Bootstrap": false
   },
   {
+    "name": "Chat App",
+    "id": "6",
+    "class": "f",
+    "close": "F",
+    "imagesrc": "pexels-chat.jpg",
+    "url": "https://chimerical-starship-0a2ca3.netlify.app/",
+    "par": "I used HTML, CSS, JS and Firebase to create this app. Messages can be: created, read and deleted.",
+    "HTML": false,
+    "CSS": true,
+    "JS": true,
+    "SASS": false,
+    "jQuery": false,
+    "ReactJS": false,
+    "Bootstrap": false
+  },
+  {
     "name": "Flower shop App",
     "id": "2",
     "class": "b",
@@ -48,7 +64,7 @@
     "Bootstrap": false
   },
   {
-    "name": "To do  App",
+    "name": "To do App",
     "id": "4",
     "class": "d",
     "close": "D",
@@ -71,7 +87,7 @@
     "imagesrc": "knitting.jpg",
     "url": "https://heroic-kelpie-7ad59d.netlify.app/",
     "par": "This project is a presentation type page. I used HTML, SASS, bootstrap, JQuery.",
-    "HTML": true,
+    "HTML": false,
     "CSS": true,
     "JS": false,
     "SASS": true,

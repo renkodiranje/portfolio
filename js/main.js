@@ -104,6 +104,7 @@ function displayTabs(e) {
       show("#3", ".c", ".C");
       show("#4", ".d", ".D");
       show("#5", ".e", ".E");
+      show("#6", ".f", ".F");
     }
   });
 }
