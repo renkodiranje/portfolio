@@ -1,4 +1,98 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
+  header {
+    background-image: none;
+
+    h1 {
+      padding-bottom: 8vh;
+      font-weight: 300;
+      font-size: 30px;
+      color: rgb(24, 120, 189);
+      margin-left: 10px;
+    }
+    #heading {
+      background-color: none;
+      opacity: 1;
+      position: relative;
+      top: 18vh;
+      font-size: 30px;
+      font-weight: 700;
+      width: 80%;
+      h3 {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  div.aside {
+    position: relative;
+    img {
+      min-width: 300px;
+      max-width: 340px;
+      width: 60%;
+      position: absolute;
+      //left: 20%;
+      bottom: 1px;
+      height: 400px;
+      opacity: 0.8;
+    }
+  }
+  .right {
+    margin: 5%;
+    h2 {
+      text-align: center;
+    }
+  }
+  #AboutMe {
+    margin-top: 40px;
+    p {
+      background-color: rgb(24, 120, 189);
+      color: white;
+    }
+    div {
+      width: 100%;
+      display: block;
+    }
+    button {
+      margin: 0 auto;
+    }
+  }
+  #MyProject {
+    margin: 10%;
+    width: 80%;
+    #quiz-modal {
+      width: inherit;
+    }
+  }
+  #Contact {
+    input,
+    textarea {
+      width: 90%;
+    }
+    img {
+      width: 25px;
+      height: 25px;
+    }
+    #mail {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  footer {
+    #button-footer {
+      display: none;
+    }
+    #arrow {
+      display: block;
+      float: right;
+      margin: 30px 60px;
+    }
+    #bottom-immage {
+      padding: 30px;
+      margin-left: 30px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
   header {
     background-image: none;
 
@@ -130,7 +224,7 @@
       .card {
         width: 35%;
         float: left;
-        margin: 5%;
+        margin: 2%;
       }
     }
     #Contact {
