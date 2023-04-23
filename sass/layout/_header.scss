@@ -2,11 +2,13 @@ header {
   position: relative;
   background-image: url("/images/trees.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 
-  div {
+  div #backgroun {
     margin: auto;
-    width: 40%;
+    width: 50%;
     background-color: white;
     opacity: 0.5;
   }
