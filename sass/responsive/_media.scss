@@ -13,12 +13,12 @@
       background-color: none;
       opacity: 1;
       position: relative;
-      top: 18vh;
+      top: 8vh;
       font-size: 30px;
-      font-weight: 700;
+      font-weight: 500;
       width: 80%;
       h3 {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
       }
     }
   }
@@ -92,7 +92,7 @@
     }
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 800px) {
   header {
     background-image: none;
 
@@ -186,7 +186,7 @@
     }
   }
 }
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 801px) and (max-width: 999px) {
   nav {
     img:first-child {
       display: none;
@@ -201,7 +201,7 @@
     }
   }
 }
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 1000px) {
   .aside {
     img {
       width: 40%;
