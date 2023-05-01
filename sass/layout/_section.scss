@@ -5,7 +5,7 @@ section {
     }
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(249, 246, 246);
+    background-color: $contact-backkground;
     img:nth-child(2) {
       width: 30px;
       height: auto;
@@ -21,7 +21,8 @@ section {
       text-decoration: none;
       padding: 12px 22px;
       &:hover {
-        color: rgb(26, 144, 176);
+        //color: rgb(26, 144, 176);
+        color: $blue-link;
       }
       &:nth-child(1) {
         display: inline;

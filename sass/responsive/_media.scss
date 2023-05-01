@@ -6,7 +6,7 @@
     div {
       width: 100%;
       float: none;
-      height: 600px;
+      height: 500px;
     }
     a:first-child {
       margin: 0;
@@ -21,7 +21,7 @@
     #mobile {
       width: 100%;
       h3 {
-        color: rgb(24, 120, 189);
+        color: $blue-top;
       }
       h4,
       h5 {
@@ -52,7 +52,7 @@
   }
   #AboutMe {
     p {
-      background-color: rgb(24, 120, 189);
+      background-color: $blue-top;
       color: white;
     }
     div {

@@ -25,9 +25,9 @@ article {
   li {
     background-color: rgb(249, 246, 246);
     a {
-      color: rgb(92, 161, 210);
+      color: $blue-link;
       &:hover {
-        color: rgb(59, 96, 122);
+        color: $blue-gradient;
       }
     }
   }
@@ -46,7 +46,7 @@ article {
       padding: 5px 20px;
       margin: 10px;
       font-style: oblique;
-      color: rgb(92, 161, 210);
+      color: $blue-link;
       font-size: 22px;
       font-weight: 900;
       text-shadow: 1px 1px white;
