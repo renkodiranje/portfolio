@@ -1,6 +1,6 @@
 [
   {
-    "name": "Quiz App",
+    "name": "Quiz",
     "id": "1",
     "class": "a",
     "close": "A",
@@ -16,7 +16,7 @@
     "Bootstrap": false
   },
   {
-    "name": "Chat App",
+    "name": "Chat",
     "id": "6",
     "class": "f",
     "close": "F",
@@ -32,7 +32,7 @@
     "Bootstrap": false
   },
   {
-    "name": "Flower shop App",
+    "name": "Flower shop",
     "id": "2",
     "class": "b",
     "close": "B",
