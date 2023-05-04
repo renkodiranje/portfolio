@@ -31,11 +31,10 @@
       }
       @keyframes ime {
         from {
-          margin-left: -180px;
+          margin-right: -180px;
           font-style: italic;
         }
         to {
-          margin-left: 3%;
           font-style: normal;
         }
       }
@@ -45,7 +44,7 @@
         font-size: medium;
         text-align: center;
         animation-name: naslov;
-        animation-duration: 3s;
+        animation-duration: 6s;
       }
       @keyframes naslov {
         from {
