@@ -20,8 +20,9 @@ section {
       display: block;
       text-decoration: none;
       padding: 12px 22px;
+      transition: color 1s;
+
       &:hover {
-        //color: rgb(26, 144, 176);
         color: $blue-link;
       }
       &:nth-child(1) {

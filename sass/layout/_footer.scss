@@ -11,6 +11,7 @@ footer {
     position: relative;
     left: 80%;
     top: 30px;
+    transition: background-color 2s;
     &:hover {
       background-color: $button-background;
     }
