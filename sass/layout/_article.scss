@@ -49,6 +49,7 @@ article {
       color: $blue-link;
       font-size: 22px;
       font-weight: 900;
+      background-color: rgb(155, 153, 153);
       text-shadow: 1px 1px white;
 
       &:hover {
@@ -77,10 +78,10 @@ article {
     position: absolute;
     top: 0;
     z-index: 10;
-    background-color: gray;
+    background-color: $blue-top;
     color: white;
-    border: 1px solid;
-    box-shadow: 5px 5px 5px 10px rgb(146, 146, 135);
+
+    box-shadow: 5px 5px 10px 15px rgb(146, 146, 144);
     margin-right: 5%;
     img {
       outline: 3px solid;
@@ -95,6 +96,9 @@ article {
         -o-transition: background 2s ease-in;
         transition: background 2s ease-in;
       }
+    }
+    .try {
+      color: $blue-top;
     }
     .try:hover {
       -webkit-transition: background 2s ease-out;
